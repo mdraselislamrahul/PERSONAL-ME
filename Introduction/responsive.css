@@ -1,0 +1,97 @@
+.heading span {
+    display: none;
+}
+
+.heading .div-2 {
+    display: none;
+}
+
+.heading .check {
+    display: none;
+}
+
+@media(max-width:992px) {
+    .heading img {
+        text-align: center;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+    .heading .div-1 {
+        text-align: center;
+        display: block;
+        margin-top: 80px;
+    }
+    .heading ul {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:755px) {
+    .heading img {
+        text-align: center;
+        height: 50px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+    }
+    .heading .div-1 .option {
+        display: none;
+    }
+    .heading .div-1 span {
+        display: inline-block;
+        margin-left: 70px;
+        cursor: pointer;
+        font-size: 25px;
+        color: rgb(90, 85, 85);
+        background-color: rgb(255, 255, 255);
+        padding: 5px 15px;
+        border-radius: 50%;
+        transition: .5s;
+    }
+    .heading span:hover {
+        color: aliceblue;
+        background-color: rgb(68, 161, 227);
+    }
+    .heading ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        text-align: left;
+        margin-left: -45px;
+        margin-top: 0px;
+    }
+    .heading .div-1 {
+        text-align: left;
+        display: block;
+        margin-top: 0px;
+    }
+    .heading .check:checked~ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .heading .check {
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin-top: -105px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .heading ul li {
+        display: block;
+        line-height: 40px;
+    }
+    .heading .div-2 {
+        position: relative;
+        top: -55px;
+        left: 0;
+        font-size: 40px;
+        pointer-events: none;
+        cursor: pointer;
+        display: block;
+    }
+}

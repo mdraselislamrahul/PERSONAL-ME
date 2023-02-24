@@ -1,0 +1,160 @@
+.heading img {
+    cursor: pointer;
+    opacity: 1;
+    transition: .5s;
+}
+
+.heading img:hover {
+    opacity: .6;
+}
+
+.heading ul {
+    text-align: right;
+}
+
+.heading ul li {
+    display: inline-block;
+}
+
+.heading ul li a {
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.heading ul li a:hover {
+    color: rgb(68, 161, 227);
+}
+
+.heading .div-1 {
+    text-align: center;
+    display: block;
+}
+
+.heading .div-1 .option {
+    height: 50px;
+    width: 80%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(218, 248, 238);
+    font-weight: bold;
+    border: none;
+}
+
+.About {
+    margin-top: 100px;
+}
+
+.About b {
+    font-size: 60px;
+    color: rgb(65, 65, 65);
+}
+
+.About h4 {
+    color: rgb(129, 129, 129);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.About img {
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+}
+
+.About-1 .div-1 {
+    padding: 0px 30px;
+}
+
+.About-1 .div-1 b {
+    font-size: 25px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 30px;
+    color: rgb(65, 65, 65);
+}
+
+.About-1 .div-1 p {
+    margin-top: 30px;
+    color: rgb(139, 139, 139);
+    font-size: 18px;
+}
+
+.About-1 .div-2 {
+    padding: 0px 30px;
+}
+
+.About-1 .div-2 b {
+    font-size: 25px;
+    display: block;
+    margin-top: 100px;
+    color: rgb(65, 65, 65);
+    margin-bottom: 100px;
+}
+
+.About-1 .div-2 p {
+    margin-top: 30px;
+    color: rgb(139, 139, 139);
+    font-size: 18px;
+}
+
+.Footer {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.Footer img {
+    cursor: pointer;
+    opacity: 1;
+    transition: .5s;
+    width: 200px;
+}
+
+.Footer p {
+    margin-top: 15px;
+}
+
+.Footer h5 a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .5s;
+}
+
+.Footer h5 a:hover {
+    color: rgb(68, 129, 227);
+}
+
+.Footer h5 {
+    margin-top: 27px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(68, 129, 227);
+}
+
+.Footer ul {
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.Footer ul li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.Footer ul li a {
+    text-decoration: none;
+    color: rgb(126, 122, 122);
+    transition: .5s;
+}
+
+.Footer ul li a:hover {
+    color: rgb(68, 129, 227);
+}
